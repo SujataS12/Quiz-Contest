@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html">
+    <link rel="stylesheet"  href="quiz.css">
+     <title>Quiz Contest</title> 
+    <script type="text/javascript">
+function redirectPage(f)
+{
+for(var i=0; i<f.answer.length; i++) {
+    if(f.answer[i].checked) {
+        if (f.answer[i].value == 'a')
+            {window.location = "easy.html";}
+        else if  (f.answer[i].value == 'b')
+            {window.location = "medium.html";}
+        else if(f.answer[i].value == 'c')
+            {window.location = "Hard.html";}
+        }
+    }
+}
+</script>
+</head>
+<body>
+    <form method="post" action="#">
+        <div class ="action">
+        <h1>Welcome to Quiz contest</h1>
+        <label><input type="radio" name="answer" value="a">Easy</label>
+        <label><input type="radio" name="answer" value="b">Medium</label>
+        <label><input type="radio" name="answer" value="c">Hard</label>
+        <input type ="button"  class="button"  value="submit" onclick="redirectPage(this.form)">
+    </div> 
+    </form>  
+ </body>
+</html>

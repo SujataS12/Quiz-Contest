@@ -1,0 +1,117 @@
+* {margin:0;padding:0;}
+    label {display:block;}       
+ 
+    body{
+        color:mistyrose;
+    margin:25px;
+    padding:25px;
+    background-color:rgb(65, 71, 69);
+    }
+    @media screen and (max-width: 500px) {
+         h1{
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+        #timer{
+            width:100;
+        } 
+
+    .action label,.button,.question1,.question2,.question3,.question4,.question5{
+        width: 100%;
+    }
+    }
+
+
+    
+#timer{
+     border:solid;
+     border-color:brown;
+     border-width:20px;
+     padding:5px;
+     border-radius: 10px;
+}
+h1{
+     border-style:solid;
+     border-color: Salmon;
+     background-color: Light Beige;
+    font-size:35px;
+    margin:auto;
+    border-color:2px solid maroon;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 15px;
+    padding:50px;
+}    
+
+h1:hover{
+    background-color:cornflowerblue;
+ }
+
+ 
+.action label{
+    margin:30px;
+    padding:20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: Salmon;
+    border-width: 2px;
+    border-radius: 10px;
+    }
+
+
+   .action label:hover{
+        background-color:chocolate;
+     }
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 25px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        font-size: 26px;
+        margin:auto;
+        cursor: pointer;
+      }
+      .button:hover{
+         background-color:chocolate;
+     }
+     
+    .question1,.question2,.question3,.question4,.question5{
+        margin:30px;
+    padding:20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: Salmon;
+    border-width: 2px;
+    border-radius: 10px;
+    }
+.hard-div label{
+        padding:5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: Salmon;
+    border-width: 0.5px;
+    border-radius: 10px;
+    }
+    .medium-div label{
+        padding:5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: Salmon;
+    border-width: 0.5px;
+    border-radius: 10px;
+    }
+    .easy-div label{
+        padding:5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: Salmon;
+    border-width: 0.5px;
+    border-radius: 10px;
+    }
